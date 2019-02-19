@@ -1,0 +1,43 @@
+*{
+    font-family: 'opendyslexic3regular', 'serif';
+}
+@font-face {
+    font-family: 'opendyslexic3regular';
+    src: url('opendyslexic3-regular-webfont.woff2') format('woff2'),
+         url('opendyslexic3-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.letter{
+    font-size: 10em;
+}
+
+.letterArea{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.btnArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 250px;
+    background-color: #dadfea;
+}
+
+.randomizeBtn{
+    font-size: 5em;
+    color: grey;
+    background-color: lightgrey;
+}
