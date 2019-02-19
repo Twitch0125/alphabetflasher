@@ -41,3 +41,18 @@
     color: grey;
     background-color: lightgrey;
 }
+@media screen and (max-width: 900px){
+    .randomizeBtn{
+        font-size: 4em;
+    }
+}
+@media screen and (max-width: 650px){
+    .randomizeBtn{
+        font-size: 3em;
+    }
+}
+@media screen and (max-width: 500px){
+    .randomizeBtn{
+        font-size: 2em;
+    }
+}
